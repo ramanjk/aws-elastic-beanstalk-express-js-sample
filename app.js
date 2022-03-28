@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 8080;
 
-app.get('/', (req, res) => res.send('Hello Ram,Welcome to AWS devops!'));
+app.get('/', (req, res) => res.send('Hello Ram,Here is full pipeline test!'));
 
 app.listen(port);
 console.log(`App running on http://localhost:${port}`);
